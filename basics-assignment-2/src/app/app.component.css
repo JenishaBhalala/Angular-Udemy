@@ -1,0 +1,39 @@
+.container {
+    display: grid;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+label {
+    text-align: center;
+}
+
+.form-control {
+
+    padding: 15px;
+    color: black;
+    background-color: rgb(94, 176, 243);
+    border: 2px solid rgb(94, 176, 243);
+    border-radius: 15px;
+}
+
+.form-control::placeholder {
+    color: rgba(70, 41, 41, 0.47);
+    font-style: italic;
+}
+
+
+.btn {
+    
+    font-weight: bold;
+    background-color: rgb(40, 142, 210);
+    border: 2px solid rgb(40, 142, 210);
+    border-radius: 15px;
+    
+}
+
+.btn:hover{
+    background-color: rgb(113, 170, 216);
+    border: 2px solid rgb(113, 170, 216);
+}
